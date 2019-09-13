@@ -29,18 +29,18 @@ echo '1. "report.json" file is produced.'
 ##
 
 echo '{
-		"scoreOverall": 100,
-    	"scoreCover": 34,
-		"scoreTest": 60,
-		"feedback": "Your container has completed. This string is the feedback property in the report.json file placed in the `/output` folder.",
-		"passNames": [],
-		"skipNames": [],
-		"failNames": [],
-		"errorNames": [],
-		"result": "FAIL",
-		"attachments": [],
-		"custom": {}
-	  }' > /output/staff/report.json
+	"scoreOverall": 100,
+	"scoreCover": 34,
+	"scoreTest": 60,
+	"feedback": "Your container has completed. This string is the feedback property in the report.json file placed in the `/output` folder.",
+	"passNames": [],
+	"skipNames": [],
+	"failNames": [],
+	"errorNames": [],
+	"result": "FAIL",
+	"attachments": [],
+	"custom": {}
+      }' > /output/staff/report.json
 
 echo "JSON 'report.json' contents: `cat /output/staff/report.json`\n\n"
 
