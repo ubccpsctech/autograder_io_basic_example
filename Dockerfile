@@ -14,4 +14,4 @@ COPY exampleScript/helloWorld.sh /gradingApp/helloWorld.sh
 RUN chmod -R 777 .
 
 ## CMD will trigger once student code is pushed to a repository.
-CMD ["/app/helloWorld.sh"]
+CMD ["/app/markAssn.sh"]
