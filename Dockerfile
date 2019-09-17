@@ -8,7 +8,7 @@ WORKDIR /gradingApp
 RUN apt-get update
 RUN apt-get install git
 
-COPY exampleScript/helloWorld.sh /gradingApp/helloWorld.sh
+COPY exampleScript/markAssn.sh /gradingApp/markAssn.sh
 
 ## Set chmod -R 777 on your work directory to ensure that AutoTest can work read the data
 RUN chmod -R 777 .
