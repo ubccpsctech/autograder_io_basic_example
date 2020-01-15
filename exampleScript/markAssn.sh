@@ -30,9 +30,9 @@ echo '1. "report.json" file is produced.'
 
 echo '{
 	"scoreOverall": 100,
-	"scoreCover": 34,
-	"scoreTest": 60,
-	"feedback": "Your container has completed. This string is the feedback property in the report.json file placed in the `/output` folder.",
+	"scoreCover": 100,
+	"scoreTest": 100,
+	"feedback": "Your container has completed. Your demo scored 100%. This string is the feedback property in the report.json file placed in the `/output` folder. The report.json will be stored in the database and read to product results.",
 	"passNames": [],
 	"skipNames": [],
 	"failNames": [],
