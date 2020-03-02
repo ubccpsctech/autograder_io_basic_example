@@ -29,18 +29,28 @@ echo '1. "report.json" file is produced.'
 ##
 
 echo '{
-	"scoreOverall": 100,
-	"scoreCover": 100,
-	"scoreTest": 100,
-	"feedback": "Your container has completed. This string is the feedback property in the report.json file placed in the `/output` folder.",
-	"passNames": [],
-	"skipNames": [],
-	"failNames": [],
-	"errorNames": [],
-	"result": "PASS",
-	"attachments": [],
-	"custom": {}
-      }' > /output/staff/report.json
+		"scoreOverall": 100,
+		"scoreCover": 100,
+		"scoreTest": 100,
+		"feedback": "Your container has completed. This string is the feedback property in the report.json file placed in the `/output` folder.",
+		"passNames": [],
+		"skipNames": [],
+		"failNames": [],
+		"errorNames": [],
+		"result": "PASS",
+		"attachments": [
+			{
+				"name": "additional_info.txt",
+				"path": "https://classy-dev.students.cs.ubc.ca/portal/resource/c6ceda46d3c9ec0213bd0fc8814c7791344dc282-lab2/student/file.txt",
+				"visibleToAdmin": false,
+				"visibleToStaff": false,
+				"visibleToStudent": true,
+				"visibleToPublic": false,
+				"content_type": "text/plain"
+			}
+		],
+		"custom": {}
+    }' > /output/staff/report.json
 
 echo "JSON 'report.json' contents: `cat /output/staff/report.json`\n\n"
 

@@ -1,9 +1,7 @@
 ## Pre-compiled Linux distributions with pre-installed Node JS, Java, Python, etc. are available.
 ## https://hub.docker.com/search/?type=image
 FROM ubuntu:14.04
-
 WORKDIR /app
-
 
 ## Install any dependencies needed to mark your code using a package manager compatible with your Linux distribution
 RUN apt-get update
