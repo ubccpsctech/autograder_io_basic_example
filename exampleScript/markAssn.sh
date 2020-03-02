@@ -40,8 +40,8 @@ echo '{
 		"result": "PASS",
 		"attachments": [
 			{
-				"name": "additional_info.txt",
-				"path": "https://classy-dev.students.cs.ubc.ca/portal/resource/c6ceda46d3c9ec0213bd0fc8814c7791344dc282-lab2/student/file.txt",
+				"name": "file.txt",
+				"path": "https://classy-dev.students.cs.ubc.ca/portal/resource/c6ceda46d3c9ec0213bd0fc8814c7791344dc282-lab2/student/",
 				"visibleToAdmin": false,
 				"visibleToStaff": false,
 				"visibleToStudent": true,
