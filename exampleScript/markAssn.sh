@@ -37,7 +37,7 @@ echo '{
 		"skipNames": [],
 		"failNames": [],
 		"errorNames": [],
-		"result": "PASS",
+		"result": "SUCCESS",
 		"attachments": [
 			{
 				"name": "file.txt",
